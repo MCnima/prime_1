@@ -1,0 +1,9 @@
+1.start  
+2.input number  
+3.c = 1  
+4.factor_counter = 0  
+5.if number%c == 0 => factor_counter += 1  
+7.else: c += 1 until c <= number  
+8.if factor_counter = 2 => number is prime  
+9.else: number is not prime  
+10.stop  
